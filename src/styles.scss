@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap');
+
+$color-ink: #262932;
+$color-muted: #727985;
+$color-page: #edf0f4;
+$color-surface: #ffffff;
+$color-navy: #3b2f6b;
+$color-navy-pressed: #2b224f;
+$color-orange: #b27646;
+$color-line: #d9dde3;
+$color-key: #e6e9ed;
+$color-key-pressed: #d2d7dd;
+$color-success: #34785b;
+$color-danger: #b94949;
+$color-warning: #9c683d;
+$color-home-top: #161c48;
+$color-home-mid: #2863c6;
+$color-home-sky: #64b9e8;
+$color-home-water: #0c639a;
+$color-logo-dot: #73747a;
+$color-home-cloud: rgba(255,255,255,.62);
+$color-home-glass: rgba(255,255,255,.56);
+$color-home-glass-border: rgba(255,255,255,.66);
+$color-land-sun: #f7c75e;
+$color-land-far: #74a8ca;
+$color-land-mid: #5384ae;
+$color-land-dark: #314e7b;
+$color-land-green: #4b9b8d;
+$color-land-ground: #b7d6b1;
+$color-land-building: #e7edf1;
+$color-land-shadow: #91a6b1;
+$color-home-gold: #e4a95c;
+$color-home-card-ink: #272d3b;
+$color-home-card-muted: #616d7d;
+$color-icon-ink: #343943;
+$color-key-ink: #22262d;
+$color-active-step: #292a2f;
+$color-step-panel: rgba(224,228,234,.56);
+$color-home-glow: rgba(139,215,255,.52);
+$color-home-pill: rgba(15,27,73,.22);
+$color-focus: rgba(178,118,70,.22);
+$color-dialog-backdrop: rgba(25,27,42,.58);
+$color-input-inset: rgba(34,40,52,.055);
+$color-white-92: rgba(255,255,255,.92);
+$color-white-83: rgba(255,255,255,.83);
+$color-white-82: rgba(255,255,255,.82);
+$color-white-78: rgba(255,255,255,.78);
+$color-white-76: rgba(255,255,255,.76);
+$color-white-72: rgba(255,255,255,.72);
+$color-white-66: rgba(255,255,255,.66);
+$color-white-62: rgba(255,255,255,.62);
+$color-white-58: rgba(255,255,255,.58);
+$color-white-56: rgba(255,255,255,.56);
+$color-white-52: rgba(255,255,255,.52);
+$color-white-46: rgba(255,255,255,.46);
+$color-white-28: rgba(255,255,255,.28);
+$color-white-22: rgba(255,255,255,.22);
+$color-white-20: rgba(255,255,255,.2);
+$color-white-18: rgba(255,255,255,.18);
+$color-white-17: rgba(255,255,255,.17);
+$color-white-15: rgba(255,255,255,.15);
+$color-success-16: rgba(52,120,91,.16);
+$color-success-08: rgba(52,120,91,.08);
+$color-success-15: rgba(52,120,91,.15);
+$color-orange-24: rgba(178,118,70,.24);
+$color-orange-10: rgba(178,118,70,.1);
+$color-orange-15: rgba(178,118,70,.15);
+$color-input-border: rgba(95,102,113,.08);
+$color-neutral-border: rgba(50,55,64,.1);
+$color-white-90: rgba(255,255,255,.9);
+$color-white-70: rgba(255,255,255,.7);
+$shadow-input: inset 0 3px 8px rgba(34,40,52,.055);
+$shadow-key-pressed: 0 2px 6px rgba(32,38,48,.12);
+$shadow-home-text: 0 1px 5px rgba(8,18,53,.28);
+$shadow-home-map: 0 0 9px rgba(255,255,255,.12);
+$color-home-glass-hover: rgba(255,255,255,.7);
+$color-service-icon-border: rgba(255,255,255,.72);
+$color-service-icon-bg: rgba(230,239,249,.63);
+$color-home-strip: rgba(24,56,123,.2);
+$color-home-strip-border: rgba(255,255,255,.17);
+$color-step-ring: rgba(178,118,70,.24);
+$color-spinner-backdrop: rgba(237,240,244,.9);
+$color-toast-icon-bg: rgba(255,255,255,.18);
+$color-key-clear: #e4572e;
+$color-key-backspace: #99514b;
+$color-key-backspace-bg: rgba(185,73,73,.09);
+$color-page-wave: rgba(255,255,255,.52);
+$color-page-wave-shadow: rgba(153,170,192,.08);
+$color-placeholder: #969aa1;
+
+$radius-small: 16px;
+$radius-medium: 24px;
+$radius-large: 34px;
+$radius-pill: 999px;
+
+$shadow-panel: 0 12px 34px rgba(29, 38, 58, .09);
+$shadow-key: 0 5px 12px rgba(32, 38, 48, .12);
+$shadow-button: 0 10px 24px rgba(38, 29, 85, .2);
+$shadow-glass: 0 15px 32px rgba(9, 21, 58, .16);
+
+:root {
+  color-scheme: light;
+  --font-kiosk: 'Roboto', 'Arial', sans-serif;
+  --color-ink: #{$color-ink};
+  --color-muted: #{$color-muted};
+  --color-page: #{$color-page};
+  --color-surface: #{$color-surface};
+  --color-navy: #{$color-navy};
+  --color-navy-pressed: #{$color-navy-pressed};
+  --color-orange: #{$color-orange};
+  --color-line: #{$color-line};
+  --color-key: #{$color-key};
+  --color-key-pressed: #{$color-key-pressed};
+  --color-success: #{$color-success};
+  --color-danger: #{$color-danger};
+  --color-warning: #{$color-warning};
+  --color-home-top: #{$color-home-top};
+  --color-home-mid: #{$color-home-mid};
+  --color-home-sky: #{$color-home-sky};
+  --color-home-water: #{$color-home-water};
+  --color-logo-dot: #{$color-logo-dot};
+  --color-home-cloud: #{$color-home-cloud};
+  --color-home-glass: #{$color-home-glass};
+  --color-home-glass-border: #{$color-home-glass-border};
+  --color-land-sun: #{$color-land-sun};
+  --color-land-far: #{$color-land-far};
+  --color-land-mid: #{$color-land-mid};
+  --color-land-dark: #{$color-land-dark};
+  --color-land-green: #{$color-land-green};
+  --color-land-ground: #{$color-land-ground};
+  --color-land-building: #{$color-land-building};
+  --color-land-shadow: #{$color-land-shadow};
+  --color-home-gold: #{$color-home-gold};
+  --color-home-card-ink: #{$color-home-card-ink};
+  --color-home-card-muted: #{$color-home-card-muted};
+  --color-icon-ink: #{$color-icon-ink};
+  --color-key-ink: #{$color-key-ink};
+  --color-active-step: #{$color-active-step};
+  --color-step-panel: #{$color-step-panel};
+  --color-home-glow: #{$color-home-glow};
+  --color-home-pill: #{$color-home-pill};
+  --color-focus: #{$color-focus};
+  --color-dialog-backdrop: #{$color-dialog-backdrop};
+  --color-input-inset: #{$color-input-inset};
+  --color-white-92: #{$color-white-92};
+  --color-white-83: #{$color-white-83};
+  --color-white-82: #{$color-white-82};
+  --color-white-78: #{$color-white-78};
+  --color-white-76: #{$color-white-76};
+  --color-white-72: #{$color-white-72};
+  --color-white-66: #{$color-white-66};
+  --color-white-62: #{$color-white-62};
+  --color-white-58: #{$color-white-58};
+  --color-white-56: #{$color-white-56};
+  --color-white-52: #{$color-white-52};
+  --color-white-46: #{$color-white-46};
+  --color-white-28: #{$color-white-28};
+  --color-white-22: #{$color-white-22};
+  --color-white-20: #{$color-white-20};
+  --color-white-18: #{$color-white-18};
+  --color-white-17: #{$color-white-17};
+  --color-white-15: #{$color-white-15};
+  --color-white-90: #{$color-white-90};
+  --color-white-70: #{$color-white-70};
+  --color-success-16: #{$color-success-16};
+  --color-success-08: #{$color-success-08};
+  --color-success-15: #{$color-success-15};
+  --color-orange-24: #{$color-orange-24};
+  --color-orange-10: #{$color-orange-10};
+  --color-orange-15: #{$color-orange-15};
+  --color-input-border: #{$color-input-border};
+  --color-neutral-border: #{$color-neutral-border};
+  --color-home-glass-hover: #{$color-home-glass-hover};
+  --color-service-icon-border: #{$color-service-icon-border};
+  --color-service-icon-bg: #{$color-service-icon-bg};
+  --color-home-strip: #{$color-home-strip};
+  --color-home-strip-border: #{$color-home-strip-border};
+  --color-step-ring: #{$color-step-ring};
+  --color-spinner-backdrop: #{$color-spinner-backdrop};
+  --color-toast-icon-bg: #{$color-toast-icon-bg};
+  --color-key-clear: #{$color-key-clear};
+  --color-key-backspace: #{$color-key-backspace};
+  --color-key-backspace-bg: #{$color-key-backspace-bg};
+  --color-page-wave: #{$color-page-wave};
+  --color-page-wave-shadow: #{$color-page-wave-shadow};
+  --color-placeholder: #{$color-placeholder};
+  --radius-small: #{$radius-small};
+  --radius-medium: #{$radius-medium};
+  --radius-large: #{$radius-large};
+  --radius-pill: #{$radius-pill};
+  --shadow-panel: #{$shadow-panel};
+  --shadow-key: #{$shadow-key};
+  --shadow-button: #{$shadow-button};
+  --shadow-glass: #{$shadow-glass};
+  --shadow-input: #{$shadow-input};
+  --shadow-key-pressed: #{$shadow-key-pressed};
+  --shadow-home-text: #{$shadow-home-text};
+  --shadow-home-map: #{$shadow-home-map};
+  font-family: var(--font-kiosk);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: var(--color-page);
+  color: var(--color-ink);
+}
+
+body {
+  background-image:
+    radial-gradient(ellipse at 2% 28%, var(--color-page-wave) 0%, transparent 36%),
+    radial-gradient(ellipse at 98% 62%, var(--color-page-wave-shadow) 0%, transparent 38%);
+}
+
+app-root { display: block; width: 100%; height: 100%; margin: 0; overflow: hidden; }
+
+button, input, select { font: inherit; }
+
+button:focus-visible, input:focus-visible, select:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}

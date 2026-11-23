@@ -1,0 +1,12 @@
+<router-outlet />
+<app-spinner [visible]="loading()" label="Loading…" />
+<app-toast />
+<app-modal
+  [visible]="session.inactivityPrompt()"
+  title="Do you need more time?"
+  [message]="'Your session will end in ' + session.countdown() + ' seconds.'"
+  confirmLabel="Continue"
+  cancelLabel="End Session"
+  (confirm)="keepAlive()"
+  (cancel)="endSession()"
+/>

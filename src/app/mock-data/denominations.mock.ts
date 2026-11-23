@@ -1,0 +1,1 @@
+export const DENOMINATIONS = [50, 100, 500, 1000, 5000] as const;
